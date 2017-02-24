@@ -15,8 +15,8 @@ namespace Bolav {
 			if(_instance != null) return;
 			Resource.SetGlobalKey(_instance = this, "Bolav/UnoProject");
 			AddMember(new NativeProperty<string, string>("version", version_no));
-			AddMember(new NativeProperty<string, string>("title",   version_no));
-			AddMember(new NativeProperty<string, string>("publisher", version_no));
+			AddMember(new NativeProperty<string, string>("title",   title));
+			AddMember(new NativeProperty<string, string>("publisher", publisher));
 		}
 
 	}
