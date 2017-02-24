@@ -1,0 +1,6 @@
+<App>
+	<JavaScript>
+		var unoproj = require('Bolav/UnoProject');
+		console.log("My version is " + unoproj.version);
+	</JavaScript>
+</App>
